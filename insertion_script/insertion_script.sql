@@ -1,28 +1,28 @@
 -----------------------------------------------------------------------------------------------
 -- CLIENT
 -----------------------------------------------------------------------------------------------
-INSERT INTO "client" ("client_fk", "name", "last_name", "profile", "phone", "email", "password", "user_type", "gender")
+INSERT INTO "client" ("client_fk", "mongo_id", "name", "last_name", "profile", "gender")
 VALUES 
-    (null, 'Miguel', 'Acosta', 'Miguel Acosta', '3334343434', 'miguel_acosta@gmail.com', 'pppppppp', '{client, clientAdmin}', 'M'),
-    (null, 'Elena', 'Molina', 'Elena Molina', '3435353535', 'elena_molina@gmail.com', 'pppppppp', '{client, clientAdmin}', 'F'),
-    (null, 'Fabián', 'Blanco', 'Fabián Blanco', '3536363636', 'fabian_blanco@gmail.com', 'pppppppp', '{client, clientAdmin}', 'M'),
-    (null, 'Sara', 'Aguilar', 'Sara Aguilar', '3637373737', 'sara_aguilar@gmail.com', 'pppppppp', '{client, clientAdmin}', 'F'),
-    (1 ,'David', 'Ibáñez', 'David Ibáñez', '3738383838', 'david_ibanez@gmail.com', 'pppppppp', '{client}', 'M'),
-    (1 ,'Miriam', 'Rojas', 'Miriam Rojas', '3839393939', 'miriam_rojas@gmail.com', 'pppppppp', '{client}', 'F'),
-    (1 ,'Rafael', 'Vargas', 'Rafael Vargas', '3939394040', 'rafael_vargas@gmail.com', 'pppppppp', '{client}', 'M'),
-    (1 ,'Cristina', 'Gil', 'Cristina Gil', '4040414141', 'cristina_gil@gmail.com', 'pppppppp', '{client}', 'F'),
-    (2 ,'Santiago', 'Campos', 'Santiago Campos', '4142424242', 'santiago_campos@gmail.com', 'pppppppp', '{client}', 'M'),
-    (2 ,'Verónica', 'Fuentes', 'Verónica Fuentes', '4243434343', 'veronica_fuentes@gmail.com', 'pppppppp', '{client}', 'F'),
-    (2 ,'Ernesto', 'Calderón', 'Ernesto Calderón', '4344444444', 'ernesto_calderon@gmail.com', 'pppppppp', '{client}', 'M'),
-    (2 ,'Alicia', 'Miranda', 'Alicia Miranda', '4445454545', 'alicia_miranda@gmail.com', 'pppppppp', '{client}', 'F'),
-    (3 ,'Iván', 'Peña', 'Iván Peña', '4546464646', 'ivan_pena@gmail.com', 'pppppppp', '{client}', 'M'),
-    (3 ,'Gabriela', 'Vega', 'Gabriela Vega', '4647474747', 'gabriela_vega@gmail.com', 'pppppppp', '{client}', 'F'),
-    (3 ,'Javier', 'Castro', 'Javier Castro', '4748484848', 'javier_castro@gmail.com', 'pppppppp', '{client}', 'M'),
-    (3 ,'Laura', 'Espinoza', 'Laura Espinoza', '4849494949', 'laura_espinoza@gmail.com', 'pppppppp', '{client}', 'F'),
-    (4 ,'Manuel', 'Serrano', 'Manuel Serrano', '4949495050', 'manuel_serrano@gmail.com', 'pppppppp', '{client}', 'M'),
-    (4 ,'Silvia', 'Navas', 'Silvia Navas', '5050505151', 'silvia_navas@gmail.com', 'pppppppp', '{client}', 'F'),
-    (4 ,'Cristian', 'Muñoz', 'Cristian Muñoz', '5151525252', 'cristian_munoz@gmail.com', 'pppppppp', '{client}', 'M'),
-    (4 ,'Daniela', 'Reyes', 'Daniela Reyes', '5252535353', 'daniela_reyes@gmail.com', 'pppppppp', '{client}', 'F');
+    (null, '$2b$10$gZArovmJVZLl4.NmfaUFPO59BZRodotUDb2de5/mOx4UX.kLVZ/E6', 'Miguel', 'Acosta', 'Miguel Acosta', 'M'),
+    (null, '$2b$10$H8zoKC6zrTnGov7cUtw3D.Vyb22uhV/tyrvy14Lpvld.AEoLlgj72', 'Elena', 'Molina', 'Elena Molina', 'F'),
+    (null, '$2b$10$Rbfwj29Ho70LfBbzAlcEbeHh5yFgHBpkgc3S0UCx.nfovGeY9qrvS', 'Fabián', 'Blanco', 'Fabián Blanco', 'M'),
+    (null, '$2b$10$SMGrSjWSvNV.HK79m4CKN.qZ2An1MHCx03L2ooXnrU52KA3CuMjKK', 'Sara', 'Aguilar', 'Sara Aguilar', 'F'),
+    (1, '$2b$10$OXgTb4GNXOu8VFxYYkIpVelgZkPSh0KdS.545sGTbFKbwl.Dy.Yee', 'David', 'Ibáñez', 'David Ibáñez', 'M'),
+    (1, '$2b$10$FGTElfEVKbXijStTN9V8b.HeG/BH1m68/FGmg.FQ9RVuHt6qE52uK', 'Miriam', 'Rojas', 'Miriam Rojas', 'F'),
+    (1, '$2b$10$fd9SJtLnO.ShC9./BAGpHeDlQVKwzFCTvimKsTZ0ALby4oAZx.lLK', 'Rafael', 'Vargas', 'Rafael Vargas', 'M'),
+    (1, '$2b$10$fq/T5UVPgH9Jrn5vtW6oHeR4kKPG8DSMXrUyUADyzF7jigquvKWwa', 'Cristina', 'Gil', 'Cristina Gil', 'F'),
+    (2, '$2b$10$IbZiGxSc3IwU8F9N1WbPS.AwKjH3SLhboX3PU0b1IVEGJcj8hQCYy', 'Santiago', 'Campos', 'Santiago Campos', 'M'),
+    (2, '$2b$10$cjheC8ndhgiCc/uE7sHOmuBq.buQPfMOb1DIJKi9qXvQo1O7StUaW', 'Verónica', 'Fuentes', 'Verónica Fuentes', 'F'),
+    (2, '$2b$10$aEr4Rj.nsDxabdFQdKoUs.hS61jTRKJKuZA.SQTmfRNdFXO4xSJFS', 'Ernesto', 'Calderón', 'Ernesto Calderón', 'M'),
+    (2, '$2b$10$7MlBaRII6PZrVXy2FO7pcutMqi3iylN6Gwt.nqdHLwOYjVgLSTg2u', 'Alicia', 'Miranda', 'Alicia Miranda', 'F'),
+    (3, '$2b$10$0LsUTiX0/OTiXQqgtnMAQu8ra9v6iqlsNkvShVDpU9oy3VnFYw1uO', 'Iván', 'Peña', 'Iván Peña', 'M'),
+    (3, '$2b$10$DlFd6BPi4lsHZNQuBFBxgeOQLoNOj/6GnST4teU0ButmzxQ6YjIoe', 'Gabriela', 'Vega', 'Gabriela Vega', 'F'),
+    (3, '$2b$10$aMYg3z31tDHA0PY89I7Xz.mNLs0YAdpYe1.eudwNRjac1X/p9Q0WK', 'Javier', 'Castro', 'Javier Castro', 'M'),
+    (3, '$2b$10$/d/pkG7MA7b.YXc3BFdHheKmZUy.xH0YzZ74n1lHC13KwlHtkWRDa', 'Laura', 'Espinoza', 'Laura Espinoza', 'F'),
+    (4, '$2b$10$BoDcsmFOTX.MAWMclLVq5uVGuPCRoC/pjJD3vZFqEiBWD6TwTZa0i', 'Manuel', 'Serrano', 'Manuel Serrano', 'M'),
+    (4, '$2b$10$LAdLqgw2mIzBnY5cv4yG2O0sgI.ujZf1dok/753Htm5K0Besi1etu', 'Silvia', 'Navas', 'Silvia Navas', 'F'),
+    (4, '$2b$10$/N9HWeloY/KNm.L5XiI3H.ekCSvRbKe1jv/IMsk3XbbXwFZvV6TI2', 'Cristian', 'Muñoz', 'Cristian Muñoz', 'M'),
+    (4, '$2b$10$u4j0Tc2.648snHbpGgeTg.3DPxbRQ0THmmivhGhFealSLO/Ai0yf.', 'Daniela', 'Reyes', 'Daniela Reyes', 'F');
 
 
 -----------------------------------------------------------------------------------------------
