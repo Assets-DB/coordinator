@@ -3,26 +3,26 @@
 -----------------------------------------------------------------------------------------------
 INSERT INTO "client" ("client_fk", "mongo_id", "name", "last_name", "profile", "gender")
 VALUES 
-    (null, '$2b$10$gZArovmJVZLl4.NmfaUFPO59BZRodotUDb2de5/mOx4UX.kLVZ/E6', 'Miguel', 'Acosta', 'Miguel Acosta', 'M'),
-    (null, '$2b$10$H8zoKC6zrTnGov7cUtw3D.Vyb22uhV/tyrvy14Lpvld.AEoLlgj72', 'Elena', 'Molina', 'Elena Molina', 'F'),
-    (null, '$2b$10$Rbfwj29Ho70LfBbzAlcEbeHh5yFgHBpkgc3S0UCx.nfovGeY9qrvS', 'Fabián', 'Blanco', 'Fabián Blanco', 'M'),
-    (null, '$2b$10$SMGrSjWSvNV.HK79m4CKN.qZ2An1MHCx03L2ooXnrU52KA3CuMjKK', 'Sara', 'Aguilar', 'Sara Aguilar', 'F'),
-    (1, '$2b$10$OXgTb4GNXOu8VFxYYkIpVelgZkPSh0KdS.545sGTbFKbwl.Dy.Yee', 'David', 'Ibáñez', 'David Ibáñez', 'M'),
-    (1, '$2b$10$FGTElfEVKbXijStTN9V8b.HeG/BH1m68/FGmg.FQ9RVuHt6qE52uK', 'Miriam', 'Rojas', 'Miriam Rojas', 'F'),
-    (1, '$2b$10$fd9SJtLnO.ShC9./BAGpHeDlQVKwzFCTvimKsTZ0ALby4oAZx.lLK', 'Rafael', 'Vargas', 'Rafael Vargas', 'M'),
-    (1, '$2b$10$fq/T5UVPgH9Jrn5vtW6oHeR4kKPG8DSMXrUyUADyzF7jigquvKWwa', 'Cristina', 'Gil', 'Cristina Gil', 'F'),
-    (2, '$2b$10$IbZiGxSc3IwU8F9N1WbPS.AwKjH3SLhboX3PU0b1IVEGJcj8hQCYy', 'Santiago', 'Campos', 'Santiago Campos', 'M'),
-    (2, '$2b$10$cjheC8ndhgiCc/uE7sHOmuBq.buQPfMOb1DIJKi9qXvQo1O7StUaW', 'Verónica', 'Fuentes', 'Verónica Fuentes', 'F'),
-    (2, '$2b$10$aEr4Rj.nsDxabdFQdKoUs.hS61jTRKJKuZA.SQTmfRNdFXO4xSJFS', 'Ernesto', 'Calderón', 'Ernesto Calderón', 'M'),
-    (2, '$2b$10$7MlBaRII6PZrVXy2FO7pcutMqi3iylN6Gwt.nqdHLwOYjVgLSTg2u', 'Alicia', 'Miranda', 'Alicia Miranda', 'F'),
-    (3, '$2b$10$0LsUTiX0/OTiXQqgtnMAQu8ra9v6iqlsNkvShVDpU9oy3VnFYw1uO', 'Iván', 'Peña', 'Iván Peña', 'M'),
-    (3, '$2b$10$DlFd6BPi4lsHZNQuBFBxgeOQLoNOj/6GnST4teU0ButmzxQ6YjIoe', 'Gabriela', 'Vega', 'Gabriela Vega', 'F'),
-    (3, '$2b$10$aMYg3z31tDHA0PY89I7Xz.mNLs0YAdpYe1.eudwNRjac1X/p9Q0WK', 'Javier', 'Castro', 'Javier Castro', 'M'),
-    (3, '$2b$10$/d/pkG7MA7b.YXc3BFdHheKmZUy.xH0YzZ74n1lHC13KwlHtkWRDa', 'Laura', 'Espinoza', 'Laura Espinoza', 'F'),
-    (4, '$2b$10$BoDcsmFOTX.MAWMclLVq5uVGuPCRoC/pjJD3vZFqEiBWD6TwTZa0i', 'Manuel', 'Serrano', 'Manuel Serrano', 'M'),
-    (4, '$2b$10$LAdLqgw2mIzBnY5cv4yG2O0sgI.ujZf1dok/753Htm5K0Besi1etu', 'Silvia', 'Navas', 'Silvia Navas', 'F'),
-    (4, '$2b$10$/N9HWeloY/KNm.L5XiI3H.ekCSvRbKe1jv/IMsk3XbbXwFZvV6TI2', 'Cristian', 'Muñoz', 'Cristian Muñoz', 'M'),
-    (4, '$2b$10$u4j0Tc2.648snHbpGgeTg.3DPxbRQ0THmmivhGhFealSLO/Ai0yf.', 'Daniela', 'Reyes', 'Daniela Reyes', 'F');
+    (null, '66a1502451a46ea84b589fcf', 'Miguel', 'Acosta', 'Miguel Acosta', 'M'),
+    (null, '66a1502451a46ea84b589fd0', 'Elena', 'Molina', 'Elena Molina', 'F'),
+    (null, '66a1502451a46ea84b589fd1', 'Fabián', 'Blanco', 'Fabián Blanco', 'M'),
+    (null, '66a1502451a46ea84b589fd2', 'Sara', 'Aguilar', 'Sara Aguilar', 'F'),
+    (1, '66a1502451a46ea84b589fd3', 'David', 'Ibáñez', 'David Ibáñez', 'M'),
+    (1, '66a1502451a46ea84b589fd4', 'Miriam', 'Rojas', 'Miriam Rojas', 'F'),
+    (1, '66a1502451a46ea84b589fd5', 'Rafael', 'Vargas', 'Rafael Vargas', 'M'),
+    (1, '66a1502451a46ea84b589fd6', 'Cristina', 'Gil', 'Cristina Gil', 'F'),
+    (2, '66a1502451a46ea84b589fd7', 'Santiago', 'Campos', 'Santiago Campos', 'M'),
+    (2, '66a1502451a46ea84b589fd8', 'Verónica', 'Fuentes', 'Verónica Fuentes', 'F'),
+    (2, '66a1502451a46ea84b589fd9', 'Ernesto', 'Calderón', 'Ernesto Calderón', 'M'),
+    (2, '66a1502451a46ea84b589fda', 'Alicia', 'Miranda', 'Alicia Miranda', 'F'),
+    (3, '66a1502451a46ea84b589fdb', 'Iván', 'Peña', 'Iván Peña', 'M'),
+    (3, '66a1502451a46ea84b589fdc', 'Gabriela', 'Vega', 'Gabriela Vega', 'F'),
+    (3, '66a1502451a46ea84b589fdd', 'Javier', 'Castro', 'Javier Castro', 'M'),
+    (3, '66a1502451a46ea84b589fde', 'Laura', 'Espinoza', 'Laura Espinoza', 'F'),
+    (4, '66a1502451a46ea84b589fdf', 'Manuel', 'Serrano', 'Manuel Serrano', 'M'),
+    (4, '66a1502451a46ea84b589fe0', 'Silvia', 'Navas', 'Silvia Navas', 'F'),
+    (4, '66a1502451a46ea84b589fe1', 'Cristian', 'Muñoz', 'Cristian Muñoz', 'M'),
+    (4, '66a1502451a46ea84b589fe2', 'Daniela', 'Reyes', 'Daniela Reyes', 'F');
 
 
 -----------------------------------------------------------------------------------------------

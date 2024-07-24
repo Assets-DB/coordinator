@@ -1,9 +1,3 @@
-DROP TYPE IF EXISTS "user_types";
-CREATE TYPE "user_types" AS ENUM (
-  'client',
-  'clientAdmin'
-);
-
 DROP TYPE IF EXISTS "gender_options";
 CREATE TYPE "gender_options" AS ENUM (
   'm',
@@ -11,6 +5,7 @@ CREATE TYPE "gender_options" AS ENUM (
   'M',
   'F'
 );
+
 
 -----------------------------------------------------------------------------------------------
 -- CLIENT
