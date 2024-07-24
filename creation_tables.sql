@@ -27,19 +27,7 @@ CREATE TABLE "client" (
     "deleted_at"    TIMESTAMP,
     "created_at"    TIMESTAMP       NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updated_at"    TIMESTAMP       NOT NULL DEFAULT CURRENT_TIMESTAMP
-
-    -- Verifica que el registro tenga al menos el phone o el email
-    CHECK (email IS NOT NULL OR phone IS NOT NULL)
-    -- Valida formato
-    CHECK (email <> '')
-    -- CHECK (phone ~ '^(?:(?:00)?549?)?0?(?:11|[2368]\d)(?:(?=\d{0,2}15)\d{2})??\d{8}$' OR phone IS NULL)
 );
-
-DROP INDEX IF EXISTS unique_email_exclude_empty;
-CREATE UNIQUE INDEX unique_email_exclude_empty ON "client" ((CASE WHEN email IS NOT NULL THEN email END));
-
-DROP INDEX IF EXISTS unique_phone_exclude_empty;
-CREATE UNIQUE INDEX unique_phone_exclude_empty ON "client" ((CASE WHEN phone IS NOT NULL THEN phone END));
 
 
 -----------------------------------------------------------------------------------------------
