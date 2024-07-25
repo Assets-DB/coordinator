@@ -12,14 +12,10 @@ La tabla "client" tiene la siguiente estructura:
 |---------------|---------------------|-----------------------------------|
 | `client_id`   | **PRIMARY KEY**     |                                   |
 | `client_fk`   | **FOREIGN KEY**     | REFERENCES "client"(client_id)    |
+| `mongo_id`    | **TEXT**            | NOT NULL UNIQUE                   |
 | `name`        | **VARCHAR(100)**    | NOT NULL                          |
 | `last_name`   | **VARCHAR(100)**    | NOT NULL                          |
 | `profile`     | **VARCHAR(100)**    | NOT NULL UNIQUE                   |
-| `phone`       | **VARCHAR(30)**     |                                   |
-| `email`       | **VARCHAR(255)**    |                                   |
-| `password`    | **VARCHAR(255)**    | NOT NULL                          |
-| `gender`      | **gender_options**  | NOT NULL                          |
-| `user_type`   | **user_types[]**    | NOT NULL                          |
 | `deleted_at`  | **TIMESTAMP**       |                                   |
 | `created_at`  | **TIMESTAMP**       | NOT NULL DEFAULT CURRENT_TI       |
 | `updated_at`  | **TIMESTAMP**       | NOT NULL DEFAULT CURRENT_TI       |

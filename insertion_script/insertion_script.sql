@@ -1,28 +1,28 @@
 -----------------------------------------------------------------------------------------------
 -- CLIENT
 -----------------------------------------------------------------------------------------------
-INSERT INTO "client" ("client_fk", "mongo_id", "name", "last_name", "profile", "gender")
+INSERT INTO "client" ("client_fk", "mongo_id", "name", "last_name", "profile")
 VALUES 
-    (null, '66a1502451a46ea84b589fcf', 'Miguel', 'Acosta', 'Miguel Acosta', 'M'),
-    (null, '66a1502451a46ea84b589fd0', 'Elena', 'Molina', 'Elena Molina', 'F'),
-    (null, '66a1502451a46ea84b589fd1', 'Fabián', 'Blanco', 'Fabián Blanco', 'M'),
-    (null, '66a1502451a46ea84b589fd2', 'Sara', 'Aguilar', 'Sara Aguilar', 'F'),
-    (1, '66a1502451a46ea84b589fd3', 'David', 'Ibáñez', 'David Ibáñez', 'M'),
-    (1, '66a1502451a46ea84b589fd4', 'Miriam', 'Rojas', 'Miriam Rojas', 'F'),
-    (1, '66a1502451a46ea84b589fd5', 'Rafael', 'Vargas', 'Rafael Vargas', 'M'),
-    (1, '66a1502451a46ea84b589fd6', 'Cristina', 'Gil', 'Cristina Gil', 'F'),
-    (2, '66a1502451a46ea84b589fd7', 'Santiago', 'Campos', 'Santiago Campos', 'M'),
-    (2, '66a1502451a46ea84b589fd8', 'Verónica', 'Fuentes', 'Verónica Fuentes', 'F'),
-    (2, '66a1502451a46ea84b589fd9', 'Ernesto', 'Calderón', 'Ernesto Calderón', 'M'),
-    (2, '66a1502451a46ea84b589fda', 'Alicia', 'Miranda', 'Alicia Miranda', 'F'),
-    (3, '66a1502451a46ea84b589fdb', 'Iván', 'Peña', 'Iván Peña', 'M'),
-    (3, '66a1502451a46ea84b589fdc', 'Gabriela', 'Vega', 'Gabriela Vega', 'F'),
-    (3, '66a1502451a46ea84b589fdd', 'Javier', 'Castro', 'Javier Castro', 'M'),
-    (3, '66a1502451a46ea84b589fde', 'Laura', 'Espinoza', 'Laura Espinoza', 'F'),
-    (4, '66a1502451a46ea84b589fdf', 'Manuel', 'Serrano', 'Manuel Serrano', 'M'),
-    (4, '66a1502451a46ea84b589fe0', 'Silvia', 'Navas', 'Silvia Navas', 'F'),
-    (4, '66a1502451a46ea84b589fe1', 'Cristian', 'Muñoz', 'Cristian Muñoz', 'M'),
-    (4, '66a1502451a46ea84b589fe2', 'Daniela', 'Reyes', 'Daniela Reyes', 'F');
+    (null, '66a1502451a46ea84b589fcf', 'Miguel', 'Acosta', 'Miguel Acosta'),
+    (null, '66a1502451a46ea84b589fd0', 'Elena', 'Molina', 'Elena Molina'),
+    (null, '66a1502451a46ea84b589fd1', 'Fabián', 'Blanco', 'Fabián Blanco'),
+    (null, '66a1502451a46ea84b589fd2', 'Sara', 'Aguilar', 'Sara Aguilar'),
+    (1, '66a1502451a46ea84b589fd3', 'David', 'Ibáñez', 'David Ibáñez'),
+    (1, '66a1502451a46ea84b589fd4', 'Miriam', 'Rojas', 'Miriam Rojas'),
+    (1, '66a1502451a46ea84b589fd5', 'Rafael', 'Vargas', 'Rafael Vargas'),
+    (1, '66a1502451a46ea84b589fd6', 'Cristina', 'Gil', 'Cristina Gil'),
+    (2, '66a1502451a46ea84b589fd7', 'Santiago', 'Campos', 'Santiago Campos'),
+    (2, '66a1502451a46ea84b589fd8', 'Verónica', 'Fuentes', 'Verónica Fuentes'),
+    (2, '66a1502451a46ea84b589fd9', 'Ernesto', 'Calderón', 'Ernesto Calderón'),
+    (2, '66a1502451a46ea84b589fda', 'Alicia', 'Miranda', 'Alicia Miranda'),
+    (3, '66a1502451a46ea84b589fdb', 'Iván', 'Peña', 'Iván Peña'),
+    (3, '66a1502451a46ea84b589fdc', 'Gabriela', 'Vega', 'Gabriela Vega'),
+    (3, '66a1502451a46ea84b589fdd', 'Javier', 'Castro', 'Javier Castro'),
+    (3, '66a1502451a46ea84b589fde', 'Laura', 'Espinoza', 'Laura Espinoza'),
+    (4, '66a1502451a46ea84b589fdf', 'Manuel', 'Serrano', 'Manuel Serrano'),
+    (4, '66a1502451a46ea84b589fe0', 'Silvia', 'Navas', 'Silvia Navas'),
+    (4, '66a1502451a46ea84b589fe1', 'Cristian', 'Muñoz', 'Cristian Muñoz'),
+    (4, '66a1502451a46ea84b589fe2', 'Daniela', 'Reyes', 'Daniela Reyes');
 
 
 -----------------------------------------------------------------------------------------------
